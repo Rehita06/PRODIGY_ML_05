@@ -1,4 +1,24 @@
+# Secrets
 .streamlit/secrets.toml
-venv
+.env
+
+# Python environment
+.venv/
 __pycache__/
 *.pyc
+
+# Model cache and temporary files
+NutriLens_HF_Cache/
+.cache/
+*.log
+
+# Model files
+*.safetensors
+training_args.bin
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local database
+nutrilens.db

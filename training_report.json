@@ -1,0 +1,10 @@
+{
+  "base_model": "google/vit-base-patch16-224-in21k",
+  "dataset": "Food-101 (ethz/food101 on Hugging Face, official train/test split)",
+  "train_images": 3000,
+  "eval_images": 2000,
+  "epochs": 1,
+  "validation_accuracy": 0.211,
+  "trained_on": "Google Colab",
+  "date": "2026-11-02"
+}
